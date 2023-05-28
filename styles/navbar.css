@@ -1,8 +1,8 @@
 .navbar {
   background-color: var(--dark-blue);
-  height: 230px;
+  height: auto;
   color: white;
-  padding: 8px 64px;
+  padding: 16px 64px;
 }
 
 .navbar svg {
@@ -31,7 +31,7 @@
   margin-top: 16px;
   display: grid;
   grid-template-columns: 0.5fr 3fr 0.75fr;
-  grid-gap: 8px;
+  gap: 8px;
 }
 
 .right-buttons {
@@ -39,4 +39,43 @@
   grid-template-columns: 1fr 1fr 3fr;
   align-items: center;
   justify-items: end;
+}
+
+.location-dropdown {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.location-dropdown svg {
+  stroke: white;
+  stroke-width: 5px;
+  margin-left: 4px;
+}
+.location-name {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.search-box {
+  margin-top: 8px;
+  background-color: white;
+  border-radius: 10px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  max-width: 700px;
+  align-items: center;
+}
+
+.search-box svg {
+  fill: var(--gray);
+  width: 20px;
+  margin: 0 auto;
+}
+.search-box input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
 }
