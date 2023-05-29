@@ -1,0 +1,110 @@
+.trending-cards-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 16px;
+  align-items: center;
+}
+
+.top-deal-cards-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 16px;
+  align-items: center;
+}
+
+.card {
+  /* max-width: 400px; */
+  cursor: pointer;
+  height: auto;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 200ms ease-in-out;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.card-image:hover {
+  transform: scale(1.03);
+}
+
+.card-name {
+  font-weight: 700;
+  line-height: 24px;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.card-location {
+  display: flex;
+  font-size: 14px;
+}
+
+.card-rating-bar {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card-rating-bar-stars {
+  margin: 0 4px;
+
+  width: 80px;
+  height: 20px;
+}
+
+.card-rating-bar-number,
+.card-rating-bar-score {
+  margin-bottom: 0;
+}
+
+.card-prices {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.original-price {
+  font-size: 21px;
+  text-decoration: line-through;
+  color: var(--gray);
+  margin-right: 4px;
+  font-weight: 400;
+}
+
+.current-price {
+  font-size: 21px;
+  color: var(--dark-green);
+  margin-right: 4px;
+  font-weight: 700;
+}
+
+.percent-off {
+  background-color: var(--light-green);
+  color: var(--dark-green);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.card-details {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .trending-cards-bar,
+  .top-deal-cards-bar {
+    justify-content: center;
+  }
+}

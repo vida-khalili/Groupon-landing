@@ -2,7 +2,7 @@
   background-color: var(--dark-blue);
   height: auto;
   color: white;
-  padding: 16px 64px;
+  padding: 8px 64px 24px 16px;
 }
 
 .navbar svg {
@@ -36,7 +36,7 @@
 
 .right-buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-columns: 1fr 1fr 2fr;
   align-items: center;
   justify-items: end;
 }
@@ -61,7 +61,7 @@
 .search-box {
   margin-top: 8px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 50px;
   height: 40px;
   display: grid;
   grid-template-columns: 40px 1fr;
@@ -77,5 +77,33 @@
 .search-box input {
   outline: none;
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .right-buttons {
+    grid-template-columns: 1fr 1fr 3fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-options {
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    padding: 16px;
+  }
+  .info-bar {
+    display: none;
+  }
+
+  .navbar-options {
+    display: grid;
+    grid-template-columns: unset;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,0 +1,125 @@
+.offer-bar {
+  background-color: var(--light-green);
+  color: var(--dark-green);
+  font-size: 12px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 8px 64px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.offer-bar div {
+  padding: 0 64px;
+}
+
+.offer-bar div:nth-child(2) {
+  border-left: 1px solid var(--dark-green);
+  border-right: 1px solid var(--dark-green);
+}
+
+.main {
+  margin-top: 16px;
+}
+.greeting {
+  font-size: 24px;
+}
+
+.greeting span {
+  font-weight: 800;
+}
+
+.banners-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0;
+  gap: 20px;
+}
+
+.banner {
+  height: 240px;
+  border-radius: 10px;
+  background-position: 50%;
+  background-size: cover;
+  padding: 32px 32px;
+  cursor: pointer;
+}
+.first-left-banner {
+  background-image: url("https://img.grouponcdn.com/sparta/28Rj1v1iavALZhTbDsyUGT7yUhnH/28-644x240.webp");
+}
+
+.first-right-banner {
+  background-image: url("https://img.grouponcdn.com/sparta/2QSNgEQ4qVTnpifZziBL9d8hs4Rs/2Q-644x240.webp");
+}
+
+.banner-title {
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  margin-bottom: 14px;
+  margin-top: 16px;
+}
+
+.banner-description {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  max-width: 200px;
+}
+
+.banner .btn {
+  font-size: 12px;
+  font-weight: 700;
+  width: auto;
+  text-align: center;
+  grid-template-columns: unset;
+}
+
+.top-deals-title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1200px) {
+  .offer-bar {
+    padding: 16px 32px;
+  }
+  .offer-bar div {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .offer-bar {
+    padding: 8px 16px;
+  }
+  .offer-bar div {
+    padding: 0 16px;
+  }
+
+  .banners-bar {
+    grid-template-columns: repeat(auto-fit, 400px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .offer-bar {
+    padding: 8px 8px;
+  }
+
+  .offer-bar div {
+    padding: 0 8px;
+  }
+  .banners-bar {
+    grid-template-columns: repeat(auto-fit, 400px);
+  }
+
+  .banner {
+    padding: 16px 16px;
+  }
+}
