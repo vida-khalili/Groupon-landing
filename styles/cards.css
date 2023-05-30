@@ -5,10 +5,12 @@
   align-items: center;
 }
 
-.top-deal-cards-bar {
+.top-deal-cards-bar,
+.popular-deal-cards-bar {
+  margin-top: 24px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
-  gap: 16px;
+  gap: 24px;
   align-items: center;
 }
 
@@ -16,6 +18,7 @@
   /* max-width: 400px; */
   cursor: pointer;
   height: auto;
+  margin-bottom: 8px;
 }
 
 .card-image {
@@ -104,7 +107,8 @@
 
 @media screen and (max-width: 1200px) {
   .trending-cards-bar,
-  .top-deal-cards-bar {
+  .top-deal-cards-bar,
+  .popular-deal-cards-bar {
     justify-content: center;
   }
 }

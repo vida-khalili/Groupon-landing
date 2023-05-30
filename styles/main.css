@@ -36,7 +36,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin: 28px 0;
+  margin: 32px 0;
   gap: 20px;
 }
 
@@ -51,9 +51,20 @@
 .first-left-banner {
   background-image: url("https://img.grouponcdn.com/sparta/28Rj1v1iavALZhTbDsyUGT7yUhnH/28-644x240.webp");
 }
-
 .first-right-banner {
   background-image: url("https://img.grouponcdn.com/sparta/2QSNgEQ4qVTnpifZziBL9d8hs4Rs/2Q-644x240.webp");
+}
+
+.second-left-banner {
+  background-image: url("https://img.grouponcdn.com/sparta/2VWQVdZJMNd74P3Qfqi6tHcoKrqU/2V-644x240.webp");
+}
+.second-right-banner {
+  background-image: url("https://img.grouponcdn.com/sparta/3LrgtUivhnSqujRsPvzDbpE3ttxS/3L-644x240.webp");
+}
+
+.second-left-banner h2,
+.second-left-banner .light-btn {
+  color: white;
 }
 
 .banner-title {
@@ -80,9 +91,101 @@
   grid-template-columns: unset;
 }
 
-.top-deals-title {
+.title-page {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
+.top-deals-title,
+.popular-deals-title {
   font-size: 24px;
   font-weight: 800;
+  margin: 0;
+}
+
+.page-counter {
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: 0.5fr 0.2fr 0.2fr;
+  gap: 4px;
+  justify-content: end;
+  align-items: center;
+}
+
+.page-number {
+  text-align: center;
+}
+
+.page-number p span {
+  font-weight: 700;
+  text-align: center;
+  color: var(--gray);
+}
+
+.pages-list {
+  font-weight: 600;
+  max-width: 300px;
+  margin: 24px auto 8px auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 3fr 1fr;
+}
+
+.pages-list ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.pages-list ul li {
+  text-align: center;
+  width: 20px;
+  border-radius: 5px;
+}
+
+.pages-list ul li:first-child {
+  border: 1px solid var(--dark-gray);
+  color: var(--dark-gray);
+}
+
+.pages-list ul li:hover {
+  cursor: pointer;
+  color: var(--dark-gray);
+}
+
+.pages-list .btn:hover {
+  background-color: rgb(246, 246, 246);
+}
+
+.ending-drawer {
+  display: flex;
+  align-items: center;
+  background-color: var(--light-gray);
+  padding: 16px;
+  color: var(--gray);
+}
+
+.ending-drawer p {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.ending-drawer-title {
+  padding-right: 16px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.plus-sign {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  margin: 0 8px 0 0;
 }
 
 @media screen and (max-width: 1200px) {
