@@ -1,1080 +1,802 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/theme.css" />
-    <link rel="stylesheet" href="./styles/typography.css" />
-    <link rel="stylesheet" href="./styles/navbar.css" />
-    <link rel="stylesheet" href="./styles/popup.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/cards.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="icon" type="image/png" href="./images/grpn-favicon.png" />
 
-    <title>Groupon</title>
-  </head>
-  <body>
-    <div class="navbar">
-      <div class="info-bar container">
-        <ul>
-          <li>
-            <a href="">
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 14 14"
-                xmlns="http://www.w3.org/2000/svg"
-                class="r-1lt9lud r-4qtqp9 r-yyyyoo r-1d4mawv r-dnmrzs r-bnwqim r-1plcrui r-lrvibr"
-              >
-                <g>
-                  <path
-                    d="M4.17955 9.94629V11.0892H3.03669V9.94629H4.17955ZM4.17955 3.08915V4.23201H3.03669V3.08915H4.17955ZM11.0367 3.08915V4.23201H9.89383V3.08915H11.0367ZM1.89383 12.2231H5.32241V8.80344H1.89383V12.2231ZM1.89383 5.37487H5.32241V1.94629H1.89383V5.37487ZM8.75098 5.37487H12.1795V1.94629H8.75098V5.37487ZM6.46526 7.66058V13.3749H0.750977V7.66058H6.46526ZM11.0367 12.232V13.3749H9.89383V12.232H11.0367ZM13.3224 12.232V13.3749H12.1795V12.232H13.3224ZM13.3224 7.66058V11.0892H9.89383V9.94629H8.75098V13.3749H7.60812V7.66058H11.0367V8.80344H12.1795V7.66058H13.3224ZM6.46526 0.803437V6.51772H0.750977V0.803437H6.46526ZM13.3224 0.803437V6.51772H7.60812V0.803437H13.3224Z"
-                  ></path>
-                </g>
-              </svg>
-              Get the Groupon App
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 14 14"
-                xmlns="http://www.w3.org/2000/svg"
-                class="r-1lt9lud r-4qtqp9 r-yyyyoo r-1d4mawv r-dnmrzs r-bnwqim r-1plcrui r-lrvibr"
-              >
-                <g>
-                  <path
-                    d="M4.17955 9.94629V11.0892H3.03669V9.94629H4.17955ZM4.17955 3.08915V4.23201H3.03669V3.08915H4.17955ZM11.0367 3.08915V4.23201H9.89383V3.08915H11.0367ZM1.89383 12.2231H5.32241V8.80344H1.89383V12.2231ZM1.89383 5.37487H5.32241V1.94629H1.89383V5.37487ZM8.75098 5.37487H12.1795V1.94629H8.75098V5.37487ZM6.46526 7.66058V13.3749H0.750977V7.66058H6.46526ZM11.0367 12.232V13.3749H9.89383V12.232H11.0367ZM13.3224 12.232V13.3749H12.1795V12.232H13.3224ZM13.3224 7.66058V11.0892H9.89383V9.94629H8.75098V13.3749H7.60812V7.66058H11.0367V8.80344H12.1795V7.66058H13.3224ZM6.46526 0.803437V6.51772H0.750977V0.803437H6.46526ZM13.3224 0.803437V6.51772H7.60812V0.803437H13.3224Z"
-                  ></path>
-                </g>
-              </svg>
-              My Whishlist
-            </a>
-          </li>
-          <li><a href="">Sell on Groupon</a></li>
-          <li><a href="">Help</a></li>
-          <li><a href="">Sign Up</a></li>
-        </ul>
-      </div>
-      <div class="navbar-options container">
-        <div class="logo">
-          <a href="https://www.groupon.com/" target="_blank"
-            ><svg
-              viewBox="0 0 631.1 103"
-              width="123"
-              height="100%"
-              focusable="false"
-              role="img"
-              aria-labelledby="title"
-              xmlns="http://www.w3.org/2000/svg"
-              class="r-4qtqp9 r-hp0c3x r-dnmrzs r-bnwqim r-1plcrui r-lrvibr"
-              data-testid="groupon-logo"
-            >
-              <title id="title">Groupon Logo</title>
-              <path
-                d="M101.1,52.1c0,11-2.9,20.5-8.6,28.6a50.85,50.85,0,0,1-42,21.8c-14.7,0-26.9-5.3-36.5-15.8C4.7,77,0,64.9,0,50.2A48.66,48.66,0,0,1,15,14.7,49.12,49.12,0,0,1,50.9,0C72,0,90.3,13,98.2,34.1H70.8c-6.1-6.4-12.5-9.7-20-9.7A26,26,0,0,0,25,50.2C25,66,37.1,77.7,50.8,77.7c9.3,0,17.2-4.6,22.2-13.2H44.6V44.7h56.3C100.8,47.8,101.1,50.4,101.1,52.1Zm6.1,49h24V69.2l19,31.8h29.7l-24-33.7c14-3.9,22.2-16.1,22.2-31.9,0-12.1-4.6-21.4-13.2-27.5-6.8-4.6-14.7-5.3-25.1-5.3H107.2v98.5Zm28.6-52.9-4.7-.1V24.8h6.8c10.8,0,15.8,3.3,15.8,11.5,0,8.6-6,11.9-17.9,11.9Zm46.6,2.9c0,14.7,4.7,26.8,14,36.5C206,97.7,218.2,103,232.9,103A49.64,49.64,0,0,0,269,87.6c9.3-9.2,14.3-22.1,14.3-36.1a49.53,49.53,0,0,0-15.4-35.9A48.52,48.52,0,0,0,232.7.9c-14.1,0-26.2,4.6-35.9,14.3S181.8,37.4,182.4,51.1Zm24.4,0a25.85,25.85,0,0,1,51.7,0c0,16-11.8,27.5-25.8,27.5C219,78.6,206.5,66.9,206.8,51.1ZM313.7,2.6H289.3V64.2c0,24.7,13.7,38.3,35.9,38.3,21.8,0,36.5-14.3,36.5-38.3V2.6h-24V63.1c0,11.6-3.9,16.9-12.5,16.9-8,0-11.5-5.9-11.5-16.9V2.6Zm55.2,98.6h23.9V69.3h6.8c10.4,0,18.3-.9,24.4-4.4,10.1-6.2,15.8-16.5,15.8-29.5,0-12.1-4.6-21.4-13.2-27.5-6.8-4.6-14.7-5.3-25.1-5.3H368.9v98.6Zm28.6-53-4.3-.1V24.8h6.4c10.8,0,15.8,3.3,15.8,11.5,0,8.6-6,11.9-17.9,11.9Zm46.2,2.9c0,14.7,4.7,26.8,14,36.5,9.6,10.1,21.8,15.4,36.5,15.4a49.64,49.64,0,0,0,36.1-15.4c9.3-9.2,14.3-22.1,14.3-36.1a49.53,49.53,0,0,0-15.4-35.9A48.52,48.52,0,0,0,494,.9c-14.1,0-26.2,4.6-35.9,14.3S443.1,37.4,443.7,51.1Zm24.3,0a25.85,25.85,0,0,1,51.7,0c0,16-11.8,27.5-25.8,27.5C480.3,78.6,467.7,66.9,468,51.1Zm105.5,50.1V46.4L610,101.2h21.1V2.6h-24V57.4L571,2.6H549.2v98.6Z"
-              ></path></svg
-          ></a>
-        </div>
-        <div class="categories-btn btn light-btn">
-          <a href="">Categories</a
-          ><svg
-            width="16"
-            height="16"
-            data-ds-type="Icon"
-            viewBox="0 0 32 32"
-            xmlns="http://www.w3.org/2000/svg"
-            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-u8s1d r-1pgswnq r-1plcrui r-lrvibr"
-          >
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/theme.css" />
+  <link rel="stylesheet" href="./styles/typography.css" />
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/popup.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="./styles/cards.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="icon" type="image/png" href="./images/grpn-favicon.png" />
+
+  <title>Groupon</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="info-bar container">
+      <ul>
+        <li>
+          <a href="">
+            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+              class="r-1lt9lud r-4qtqp9 r-yyyyoo r-1d4mawv r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+              <g>
+                <path
+                  d="M4.17955 9.94629V11.0892H3.03669V9.94629H4.17955ZM4.17955 3.08915V4.23201H3.03669V3.08915H4.17955ZM11.0367 3.08915V4.23201H9.89383V3.08915H11.0367ZM1.89383 12.2231H5.32241V8.80344H1.89383V12.2231ZM1.89383 5.37487H5.32241V1.94629H1.89383V5.37487ZM8.75098 5.37487H12.1795V1.94629H8.75098V5.37487ZM6.46526 7.66058V13.3749H0.750977V7.66058H6.46526ZM11.0367 12.232V13.3749H9.89383V12.232H11.0367ZM13.3224 12.232V13.3749H12.1795V12.232H13.3224ZM13.3224 7.66058V11.0892H9.89383V9.94629H8.75098V13.3749H7.60812V7.66058H11.0367V8.80344H12.1795V7.66058H13.3224ZM6.46526 0.803437V6.51772H0.750977V0.803437H6.46526ZM13.3224 0.803437V6.51772H7.60812V0.803437H13.3224Z">
+                </path>
+              </g>
+            </svg>
+            Get the Groupon App
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+              class="r-1lt9lud r-4qtqp9 r-yyyyoo r-1d4mawv r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+              <g>
+                <path
+                  d="M4.17955 9.94629V11.0892H3.03669V9.94629H4.17955ZM4.17955 3.08915V4.23201H3.03669V3.08915H4.17955ZM11.0367 3.08915V4.23201H9.89383V3.08915H11.0367ZM1.89383 12.2231H5.32241V8.80344H1.89383V12.2231ZM1.89383 5.37487H5.32241V1.94629H1.89383V5.37487ZM8.75098 5.37487H12.1795V1.94629H8.75098V5.37487ZM6.46526 7.66058V13.3749H0.750977V7.66058H6.46526ZM11.0367 12.232V13.3749H9.89383V12.232H11.0367ZM13.3224 12.232V13.3749H12.1795V12.232H13.3224ZM13.3224 7.66058V11.0892H9.89383V9.94629H8.75098V13.3749H7.60812V7.66058H11.0367V8.80344H12.1795V7.66058H13.3224ZM6.46526 0.803437V6.51772H0.750977V0.803437H6.46526ZM13.3224 0.803437V6.51772H7.60812V0.803437H13.3224Z">
+                </path>
+              </g>
+            </svg>
+            My Whishlist
+          </a>
+        </li>
+        <li><a href="">Sell on Groupon</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="">Sign Up</a></li>
+      </ul>
+    </div>
+    <div class="navbar-options container">
+      <div class="logo">
+        <a href="https://www.groupon.com/" target="_blank"><svg viewBox="0 0 631.1 103" width="123" height="100%"
+            focusable="false" role="img" aria-labelledby="title" xmlns="http://www.w3.org/2000/svg"
+            class="r-4qtqp9 r-hp0c3x r-dnmrzs r-bnwqim r-1plcrui r-lrvibr" data-testid="groupon-logo">
+            <title id="title">Groupon Logo</title>
             <path
-              d="M6.71 11.29A1 1 0 1 0 5.3 12.7l10 10a1 1 0 0 0 1.41 0l10-10a1 1 0 1 0-1.41-1.41l-9.3 9.3-9.29-9.3z"
-            ></path>
-          </svg>
-          <div class="popup-box">
-            <div class="transparent-bar"></div>
-            <div class="popup-box-content">
-              <ul>
-                <li>
-                  <a class="popup-box-content-link" href=""
-                    ><p>Goods</p>
-                    <svg
-                      fill="#1c1d1f"
-                      version="1.1"
-                      baseProfile="tiny"
-                      id="Layer_1"
-                      xmlns:x="&amp;ns_extend;"
-                      xmlns:i="&amp;ns_ai;"
-                      xmlns:graph="&amp;ns_graphs;"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                      viewBox="0 0 42 42"
-                      xml:space="preserve"
-                      stroke="#ffffff"
-                    >
-                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                      <g
-                        id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></g>
-                      <g id="SVGRepo_iconCarrier">
-                        <polygon
-                          fill-rule="evenodd"
-                          points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "
-                        ></polygon>
-                      </g></svg
-                  ></a>
-                </li>
-                <li>
-                  <a class="popup-box-content-link" href=""
-                    ><p>Travels and Hotels</p>
-                    <svg
-                      fill="#1c1d1f"
-                      version="1.1"
-                      baseProfile="tiny"
-                      id="Layer_1"
-                      xmlns:x="&amp;ns_extend;"
-                      xmlns:i="&amp;ns_ai;"
-                      xmlns:graph="&amp;ns_graphs;"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                      viewBox="0 0 42 42"
-                      xml:space="preserve"
-                      stroke="#ffffff"
-                    >
-                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                      <g
-                        id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></g>
-                      <g id="SVGRepo_iconCarrier">
-                        <polygon
-                          fill-rule="evenodd"
-                          points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "
-                        ></polygon>
-                      </g></svg
-                  ></a>
-                </li>
-                <li>
-                  <a class="popup-box-content-link" href=""
-                    ><p>Coupons</p>
-                    <svg
-                      fill="#1c1d1f"
-                      version="1.1"
-                      baseProfile="tiny"
-                      id="Layer_1"
-                      xmlns:x="&amp;ns_extend;"
-                      xmlns:i="&amp;ns_ai;"
-                      xmlns:graph="&amp;ns_graphs;"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                      viewBox="0 0 42 42"
-                      xml:space="preserve"
-                      stroke="#ffffff"
-                    >
-                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                      <g
-                        id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></g>
-                      <g id="SVGRepo_iconCarrier">
-                        <polygon
-                          fill-rule="evenodd"
-                          points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "
-                        ></polygon>
-                      </g></svg
-                  ></a>
-                </li>
-                <li>
-                  <a class="popup-box-content-link" href=""
-                    ><p>Best Deals</p>
-                    <svg
-                      fill="#1c1d1f"
-                      version="1.1"
-                      baseProfile="tiny"
-                      id="Layer_1"
-                      xmlns:x="&amp;ns_extend;"
-                      xmlns:i="&amp;ns_ai;"
-                      xmlns:graph="&amp;ns_graphs;"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                      viewBox="0 0 42 42"
-                      xml:space="preserve"
-                      stroke="#ffffff"
-                    >
-                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                      <g
-                        id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></g>
-                      <g id="SVGRepo_iconCarrier">
-                        <polygon
-                          fill-rule="evenodd"
-                          points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "
-                        ></polygon>
-                      </g></svg
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="right-buttons">
-          <div class="cart-icon">
-            <svg
-              data-ds-type="Icon"
-              width="24"
-              height="24"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-              class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-1dl2rms r-4wgw6l r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz"
-              id="cart-icon"
-            >
-              <path
-                d="m26.15 18.28 2.32-9.03c.08-.3.01-.62-.18-.86S27.81 8 27.5 8H9.11l-.52-3.5A1.76 1.76 0 0 0 6.84 3H3.5c-.55 0-1 .45-1 1s.45 1 1 1h3.14l2.75 18.22A2.99 2.99 0 0 0 10.5 29a3 3 0 0 0 2.82-4h7.37a3 3 0 0 0 2.82 4c1.65 0 3-1.35 3-3s-1.35-3-3-3H11.38L11 20.5h12.25c1.35 0 2.54-.91 2.9-2.22zM10.5 27c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm13 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zM9.42 10h16.8l-2 7.77a1 1 0 0 1-.96.74H10.7L9.42 10z"
-              ></path>
-            </svg>
-            <div class="popup-box">
-              <div class="transparent-bar"></div>
-              <div class="popup-box-content">
-                <div class="cart-title">Your Shopping Cart is Empty!</div>
-                <a href="">Keep shopping</a>
-              </div>
-            </div>
-          </div>
-          <div class="bell-icon">
-            <svg
-              data-ds-type="Icon"
-              width="24"
-              height="24"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-              class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-1dl2rms r-4wgw6l r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz"
-            >
-              <path
-                d="M28.86 24.48c-1.56-2.59-2.29-5.67-2.98-8.63-1.24-5.26-2.53-10.68-8.88-11.2V3a1 1 0 0 0-1-1 1 1 0 0 0-1 1v1.65c-6.48.51-7.72 5.93-8.92 11.2-.67 2.97-1.37 6.04-2.93 8.63-.42.64.1 1.54.85 1.52h7.1a5 5 0 0 0 9.8 0H28c.75.02 1.27-.88.86-1.52zM16 28c-1.3 0-2.4-.84-2.82-2h5.63A2.99 2.99 0 0 1 16 28zM5.67 24c1.17-2.46 1.77-5.12 2.36-7.7C9.44 10.1 10.5 6.6 16 6.6c5.38 0 6.47 3.51 7.93 9.71.61 2.58 1.23 5.23 2.4 7.69H5.67z"
-              ></path>
-            </svg>
-          </div>
-          <div class="signin-btn btn light-btn">
-            <a href="">Sign In</a
-            ><svg
-              width="16"
-              height="16"
-              data-ds-type="Icon"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-              class="r-4qtqp9 r-yyyyoo r-dnmrzs r-u8s1d r-1pgswnq r-1plcrui r-lrvibr"
-            >
-              <path
-                d="M6.71 11.29A1 1 0 1 0 5.3 12.7l10 10a1 1 0 0 0 1.41 0l10-10a1 1 0 1 0-1.41-1.41l-9.3 9.3-9.29-9.3z"
-              ></path>
-            </svg>
-          </div>
-        </div>
+              d="M101.1,52.1c0,11-2.9,20.5-8.6,28.6a50.85,50.85,0,0,1-42,21.8c-14.7,0-26.9-5.3-36.5-15.8C4.7,77,0,64.9,0,50.2A48.66,48.66,0,0,1,15,14.7,49.12,49.12,0,0,1,50.9,0C72,0,90.3,13,98.2,34.1H70.8c-6.1-6.4-12.5-9.7-20-9.7A26,26,0,0,0,25,50.2C25,66,37.1,77.7,50.8,77.7c9.3,0,17.2-4.6,22.2-13.2H44.6V44.7h56.3C100.8,47.8,101.1,50.4,101.1,52.1Zm6.1,49h24V69.2l19,31.8h29.7l-24-33.7c14-3.9,22.2-16.1,22.2-31.9,0-12.1-4.6-21.4-13.2-27.5-6.8-4.6-14.7-5.3-25.1-5.3H107.2v98.5Zm28.6-52.9-4.7-.1V24.8h6.8c10.8,0,15.8,3.3,15.8,11.5,0,8.6-6,11.9-17.9,11.9Zm46.6,2.9c0,14.7,4.7,26.8,14,36.5C206,97.7,218.2,103,232.9,103A49.64,49.64,0,0,0,269,87.6c9.3-9.2,14.3-22.1,14.3-36.1a49.53,49.53,0,0,0-15.4-35.9A48.52,48.52,0,0,0,232.7.9c-14.1,0-26.2,4.6-35.9,14.3S181.8,37.4,182.4,51.1Zm24.4,0a25.85,25.85,0,0,1,51.7,0c0,16-11.8,27.5-25.8,27.5C219,78.6,206.5,66.9,206.8,51.1ZM313.7,2.6H289.3V64.2c0,24.7,13.7,38.3,35.9,38.3,21.8,0,36.5-14.3,36.5-38.3V2.6h-24V63.1c0,11.6-3.9,16.9-12.5,16.9-8,0-11.5-5.9-11.5-16.9V2.6Zm55.2,98.6h23.9V69.3h6.8c10.4,0,18.3-.9,24.4-4.4,10.1-6.2,15.8-16.5,15.8-29.5,0-12.1-4.6-21.4-13.2-27.5-6.8-4.6-14.7-5.3-25.1-5.3H368.9v98.6Zm28.6-53-4.3-.1V24.8h6.4c10.8,0,15.8,3.3,15.8,11.5,0,8.6-6,11.9-17.9,11.9Zm46.2,2.9c0,14.7,4.7,26.8,14,36.5,9.6,10.1,21.8,15.4,36.5,15.4a49.64,49.64,0,0,0,36.1-15.4c9.3-9.2,14.3-22.1,14.3-36.1a49.53,49.53,0,0,0-15.4-35.9A48.52,48.52,0,0,0,494,.9c-14.1,0-26.2,4.6-35.9,14.3S443.1,37.4,443.7,51.1Zm24.3,0a25.85,25.85,0,0,1,51.7,0c0,16-11.8,27.5-25.8,27.5C480.3,78.6,467.7,66.9,468,51.1Zm105.5,50.1V46.4L610,101.2h21.1V2.6h-24V57.4L571,2.6H549.2v98.6Z">
+            </path>
+          </svg></a>
       </div>
-      <div class="location-dropdown">
-        <a href="" class="location-name">Chicago</a>
-        <svg
-          width="16"
-          height="16"
-          data-ds-type="Icon"
-          viewBox="0 0 32 32"
-          xmlns="http://www.w3.org/2000/svg"
-          class="r-4qtqp9 r-yyyyoo r-dnmrzs r-u8s1d r-1pgswnq r-1plcrui r-lrvibr"
-        >
-          <path
-            d="M6.71 11.29A1 1 0 1 0 5.3 12.7l10 10a1 1 0 0 0 1.41 0l10-10a1 1 0 1 0-1.41-1.41l-9.3 9.3-9.29-9.3z"
-          ></path>
+      <div class="categories-btn btn light-btn">
+        <a href="">Categories</a><svg width="16" height="16" data-ds-type="Icon" viewBox="0 0 32 32"
+          xmlns="http://www.w3.org/2000/svg" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-u8s1d r-1pgswnq r-1plcrui r-lrvibr">
+          <path d="M6.71 11.29A1 1 0 1 0 5.3 12.7l10 10a1 1 0 0 0 1.41 0l10-10a1 1 0 1 0-1.41-1.41l-9.3 9.3-9.29-9.3z">
+          </path>
         </svg>
         <div class="popup-box">
           <div class="transparent-bar"></div>
           <div class="popup-box-content">
-            <div class="address-input">
-              <svg
-                viewBox="0 0 16 16"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="#615c66"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    d="M12.027 9.92L16 13.95 14 16l-4.075-3.976A6.465 6.465 0 0 1 6.5 13C2.91 13 0 10.083 0 6.5 0 2.91 2.917 0 6.5 0 10.09 0 13 2.917 13 6.5a6.463 6.463 0 0 1-.973 3.42zM1.997 6.452c0 2.48 2.014 4.5 4.5 4.5 2.48 0 4.5-2.015 4.5-4.5 0-2.48-2.015-4.5-4.5-4.5-2.48 0-4.5 2.014-4.5 4.5z"
-                    fill-rule="evenodd"
-                  ></path>
-                </g>
-              </svg>
-              <input type="text" placeholder="Zipcode, Neighbourhood, City" />
+            <ul>
+              <li>
+                <a class="popup-box-content-link" href="">
+                  <p>Goods</p>
+                  <svg fill="#1c1d1f" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;"
+                    xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 42 42" xml:space="preserve"
+                    stroke="#ffffff">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <polygon fill-rule="evenodd"
+                        points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "></polygon>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="popup-box-content-link" href="">
+                  <p>Travels and Hotels</p>
+                  <svg fill="#1c1d1f" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;"
+                    xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 42 42" xml:space="preserve"
+                    stroke="#ffffff">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <polygon fill-rule="evenodd"
+                        points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "></polygon>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="popup-box-content-link" href="">
+                  <p>Coupons</p>
+                  <svg fill="#1c1d1f" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;"
+                    xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 42 42" xml:space="preserve"
+                    stroke="#ffffff">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <polygon fill-rule="evenodd"
+                        points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "></polygon>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="popup-box-content-link" href="">
+                  <p>Best Deals</p>
+                  <svg fill="#1c1d1f" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;"
+                    xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 42 42" xml:space="preserve"
+                    stroke="#ffffff">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <polygon fill-rule="evenodd"
+                        points="13.933,1 34,21.068 14.431,40.637 9.498,35.704 24.136,21.068 9,5.933 "></polygon>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right-buttons">
+        <div class="cart-icon">
+          <svg data-ds-type="Icon" width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+            class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-1dl2rms r-4wgw6l r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz"
+            id="cart-icon">
+            <path
+              d="m26.15 18.28 2.32-9.03c.08-.3.01-.62-.18-.86S27.81 8 27.5 8H9.11l-.52-3.5A1.76 1.76 0 0 0 6.84 3H3.5c-.55 0-1 .45-1 1s.45 1 1 1h3.14l2.75 18.22A2.99 2.99 0 0 0 10.5 29a3 3 0 0 0 2.82-4h7.37a3 3 0 0 0 2.82 4c1.65 0 3-1.35 3-3s-1.35-3-3-3H11.38L11 20.5h12.25c1.35 0 2.54-.91 2.9-2.22zM10.5 27c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm13 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zM9.42 10h16.8l-2 7.77a1 1 0 0 1-.96.74H10.7L9.42 10z">
+            </path>
+          </svg>
+          <div class="popup-box">
+            <div class="transparent-bar"></div>
+            <div class="popup-box-content">
+              <div class="cart-title">Your Shopping Cart is Empty!</div>
+              <a href="">Keep shopping</a>
             </div>
-            <div class="current-location">
-              <svg
-                data-ds-type="Icon"
-                width="24"
-                height="24"
-                viewBox="0 0 32 32"
-                fill="#005EAB"
-                xmlns="http://www.w3.org/2000/svg"
-                class="r-4qtqp9 r-10ptun7 r-1kb76zh r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1janqcz"
-              >
+          </div>
+        </div>
+        <div class="bell-icon">
+          <svg data-ds-type="Icon" width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+            class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-1dl2rms r-4wgw6l r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz">
+            <path
+              d="M28.86 24.48c-1.56-2.59-2.29-5.67-2.98-8.63-1.24-5.26-2.53-10.68-8.88-11.2V3a1 1 0 0 0-1-1 1 1 0 0 0-1 1v1.65c-6.48.51-7.72 5.93-8.92 11.2-.67 2.97-1.37 6.04-2.93 8.63-.42.64.1 1.54.85 1.52h7.1a5 5 0 0 0 9.8 0H28c.75.02 1.27-.88.86-1.52zM16 28c-1.3 0-2.4-.84-2.82-2h5.63A2.99 2.99 0 0 1 16 28zM5.67 24c1.17-2.46 1.77-5.12 2.36-7.7C9.44 10.1 10.5 6.6 16 6.6c5.38 0 6.47 3.51 7.93 9.71.61 2.58 1.23 5.23 2.4 7.69H5.67z">
+            </path>
+          </svg>
+        </div>
+        <div class="signin-btn btn light-btn">
+          <a href="">Sign In</a><svg width="16" height="16" data-ds-type="Icon" viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-u8s1d r-1pgswnq r-1plcrui r-lrvibr">
+            <path
+              d="M6.71 11.29A1 1 0 1 0 5.3 12.7l10 10a1 1 0 0 0 1.41 0l10-10a1 1 0 1 0-1.41-1.41l-9.3 9.3-9.29-9.3z">
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="location-dropdown">
+      <a href="" class="location-name">Chicago</a>
+      <svg width="16" height="16" data-ds-type="Icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-u8s1d r-1pgswnq r-1plcrui r-lrvibr">
+        <path d="M6.71 11.29A1 1 0 1 0 5.3 12.7l10 10a1 1 0 0 0 1.41 0l10-10a1 1 0 1 0-1.41-1.41l-9.3 9.3-9.29-9.3z">
+        </path>
+      </svg>
+      <div class="popup-box">
+        <div class="transparent-bar"></div>
+        <div class="popup-box-content">
+          <div class="address-input">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#615c66">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
                 <path
-                  d="M29.71 2.15a1 1 0 0 0-1.08-.22l-26 10.5c-.39.16-.63.53-.63.94s.26.78.64.92l10.86 4.13 3.85 11.06a1 1 0 0 0 .92.67h.02c.41 0 .77-.25.93-.62l10.7-26.3a.99.99 0 0 0-.21-1.08zM18.37 26.33l-3.13-8.99c-.1-.28-.31-.5-.59-.61l-8.92-3.39 21.44-8.66-8.8 21.65z"
-                ></path>
-              </svg>
-              Current location
-            </div>
+                  d="M12.027 9.92L16 13.95 14 16l-4.075-3.976A6.465 6.465 0 0 1 6.5 13C2.91 13 0 10.083 0 6.5 0 2.91 2.917 0 6.5 0 10.09 0 13 2.917 13 6.5a6.463 6.463 0 0 1-.973 3.42zM1.997 6.452c0 2.48 2.014 4.5 4.5 4.5 2.48 0 4.5-2.015 4.5-4.5 0-2.48-2.015-4.5-4.5-4.5-2.48 0-4.5 2.014-4.5 4.5z"
+                  fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <input type="text" placeholder="Zipcode, Neighbourhood, City" />
+          </div>
+          <div class="current-location">
+            <svg data-ds-type="Icon" width="24" height="24" viewBox="0 0 32 32" fill="#005EAB"
+              xmlns="http://www.w3.org/2000/svg"
+              class="r-4qtqp9 r-10ptun7 r-1kb76zh r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1janqcz">
+              <path
+                d="M29.71 2.15a1 1 0 0 0-1.08-.22l-26 10.5c-.39.16-.63.53-.63.94s.26.78.64.92l10.86 4.13 3.85 11.06a1 1 0 0 0 .92.67h.02c.41 0 .77-.25.93-.62l10.7-26.3a.99.99 0 0 0-.21-1.08zM18.37 26.33l-3.13-8.99c-.1-.28-.31-.5-.59-.61l-8.92-3.39 21.44-8.66-8.8 21.65z">
+              </path>
+            </svg>
+            Current location
           </div>
         </div>
       </div>
-      <form class="search-box container">
-        <svg
-          data-ds-type="Icon"
-          width="24"
-          height="24"
-          viewBox="0 0 32 32"
-          xmlns="http://www.w3.org/2000/svg"
-          class="r-o8gllb r-4qtqp9 r-yyyyoo r-10ptun7 r-dnmrzs r-285fr0 r-bnwqim r-1plcrui r-lrvibr r-1janqcz"
-        >
-          <path
-            d="m29.21 27.79-8.11-8.11c1.5-1.82 2.4-4.15 2.4-6.68 0-5.79-4.71-10.5-10.5-10.5S2.5 7.21 2.5 13 7.21 23.5 13 23.5c2.54 0 4.86-.9 6.68-2.41l8.11 8.11c.39.39 1.02.39 1.41 0s.4-1.02.01-1.41zM4.5 13c0-4.69 3.81-8.5 8.5-8.5s8.5 3.81 8.5 8.5-3.81 8.5-8.5 8.5-8.5-3.81-8.5-8.5z"
-          ></path>
-        </svg>
-        <input type="text" placeholder="Search Groupon" />
-      </form>
     </div>
-    <div class="offer-bar">
-      <div>
-        <a href=""
-          >Summer Fun: Get Up to 75% Off Local + Goods Deals or Extra 10% Off
-          Travel Deals</a
-        >
+    <form class="search-box container">
+      <svg data-ds-type="Icon" width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+        class="r-o8gllb r-4qtqp9 r-yyyyoo r-10ptun7 r-dnmrzs r-285fr0 r-bnwqim r-1plcrui r-lrvibr r-1janqcz">
+        <path
+          d="m29.21 27.79-8.11-8.11c1.5-1.82 2.4-4.15 2.4-6.68 0-5.79-4.71-10.5-10.5-10.5S2.5 7.21 2.5 13 7.21 23.5 13 23.5c2.54 0 4.86-.9 6.68-2.41l8.11 8.11c.39.39 1.02.39 1.41 0s.4-1.02.01-1.41zM4.5 13c0-4.69 3.81-8.5 8.5-8.5s8.5 3.81 8.5 8.5-3.81 8.5-8.5 8.5-8.5-3.81-8.5-8.5z">
+        </path>
+      </svg>
+      <input type="text" placeholder="Search Groupon" />
+    </form>
+  </div>
+  <div class="offer-bar">
+    <div>
+      <a href="">Summer Fun: Get Up to 75% Off Local + Goods Deals or Extra 10% Off
+        Travel Deals</a>
+    </div>
+    <div>
+      <a href="">Sun's Out, Fun's Out! Make the most out of summer with deals on fun
+        near you!</a>
+    </div>
+    <div>
+      <a href="">Switch to the app! Search, purchase, and redeem Groupons directly
+        from your mobile device.</a>
+    </div>
+  </div>
+  <div class="main container">
+    <p class="greeting">
+      <span>Hi there,</span> here's what's trending today
+    </p>
+    <div class="trending-cards-bar">
+      <div class="card">
+        <img class="card-image" src="https://img.grouponcdn.com/deal/ddPzt2ANHPaiTDHemkY3/1i-984x591/v1/c349x211.webp"
+          alt="" />
+        <div class="card-name">King Spa and Sauna</div>
+        <div class="card-location">
+          <p class="card-location-address">809 Civic Center Dr., Niles</p>
+          •
+          <p class="card-location-miles">13.4 mi</p>
+        </div>
+        <div class="card-rating-bar">
+          <p class="card-rating-bar-score">4.5</p>
+          <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+          <p class="card-rating-bar-number">2043 Ratings</p>
+        </div>
+        <div class="card-prices">
+          <p class="original-price">$50</p>
+          <p class="current-price">$35</p>
+          <p class="percent-off">30% OFF</p>
+        </div>
+        <div class="card-details">General Spa Admission for One</div>
       </div>
-      <div>
-        <a href=""
-          >Sun's Out, Fun's Out! Make the most out of summer with deals on fun
-          near you!</a
-        >
+      <div class="card">
+        <img class="card-image"
+          src="https://img.grouponcdn.com/deal/TxCsMdvFmgciVRohZVFW551hPw4/Tx-2000x1200/v1/c349x211.webp" alt="" />
+        <div class="card-name">Bounce The Mall</div>
+        <div class="card-location">
+          <p class="card-location-address">Chicago Premium Outlets, Aurora</p>
+          •
+          <p class="card-location-miles">33.8 mi</p>
+        </div>
+        <div class="card-rating-bar">
+          <p class="card-rating-bar-score">4.5</p>
+          <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+          <p class="card-rating-bar-number">2563 Ratings</p>
+        </div>
+        <div class="card-prices">
+          <p class="original-price">$26.16</p>
+          <p class="current-price">$19</p>
+          <p class="percent-off">27% OFF</p>
+        </div>
+        <div class="card-details">Selling fast!</div>
       </div>
-      <div>
-        <a href=""
-          >Switch to the app! Search, purchase, and redeem Groupons directly
-          from your mobile device.</a
-        >
+      <div class="card">
+        <img class="card-image"
+          src="https://img.grouponcdn.com/deal/sRBhS1YUqxKGFNoU6o6YGT/IMAGE_Valvoline-Instant-Oil-Change-Kansas-City_MO-700x420/v1/c349x211.webp"
+          alt="" />
+        <div class="card-name">Valvoline Instant Oil Change</div>
+        <div class="card-location">
+          <p class="card-location-address">810 West 31st Street, Chicago</p>
+          •
+          <p class="card-location-miles">3.1 mi</p>
+        </div>
+        <div class="card-rating-bar">
+          <p class="card-rating-bar-score">4.6</p>
+          <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+          <p class="card-rating-bar-number">2895 Ratings</p>
+        </div>
+        <div class="card-prices">
+          <p class="original-price">$49.99</p>
+          <p class="current-price">$34.99</p>
+          <p class="percent-off">30% OFF</p>
+        </div>
+        <div class="card-details">
+          One Conventional Oil Change (Valid Only at Select Locations)
+        </div>
       </div>
     </div>
-    <div class="main container">
-      <p class="greeting">
-        <span>Hi there,</span> here's what's trending today
-      </p>
-      <div class="trending-cards-bar">
+    <div class="banners-bar">
+      <div class="banner first-left-banner">
+        <h2 class="banner-title">Unlock your discount</h2>
+        <p class="banner-description">
+          Find top deals you'll love all in one place
+        </p>
+        <div class="btn dark-btn">Save Today</div>
+      </div>
+      <div class="banner first-right-banner">
+        <h2 class="banner-title">Sun's Out, Fun's Out</h2>
+        <p class="banner-description">
+          Make the most out of summer with deals on fun near you!
+        </p>
+        <div class="btn dark-btn">Get Out There</div>
+      </div>
+    </div>
+    <div class="top-deals">
+      <div class="title-page">
+        <h2 class="top-deals-title">Experience The City's Top Deals</h2>
+        <div class="page-counter">
+          1 of 2
+          <div class="previous-btn">
+            <img src="./images/previous.svg" width="14px" />
+          </div>
+          <div class="next-btn">
+            <img src="./images/next.svg" width="14px" />
+          </div>
+        </div>
+      </div>
+      <div class="top-deal-cards-bar">
         <div class="card">
-          <img
-            class="card-image"
-            src="https://img.grouponcdn.com/deal/ddPzt2ANHPaiTDHemkY3/1i-984x591/v1/c349x211.webp"
-            alt=""
-          />
-          <div class="card-name">King Spa and Sauna</div>
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/23Gdw67Vps17Co3xtLAAHnqzKQR2/23-1200x840/v1/c349x211.webp" alt="" />
+          <div class="card-name">City Cruises</div>
           <div class="card-location">
-            <p class="card-location-address">809 Civic Center Dr., Niles</p>
+            <p class="card-location-address">
+              600 East Grand Avenue, Chicago
+            </p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.4</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">833 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$34.95</p>
+            <p class="current-price">$20.97</p>
+            <p class="percent-off">40% OFF</p>
+          </div>
+          <div class="card-details">Chicago Lakefront Speedboat Tour</div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/2ThNUA4ropWDrYk5LLnPVevWtcwV/2T-2848x1760/v1/c349x211.webp" alt="" />
+          <div class="card-name">Circus Vazquez Schaumburg (June 2–11)</div>
+          <div class="card-location">
+            <p class="card-location-address">5 Woodfield Mall, Schaumburg</p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.3</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">222 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$39.72</p>
+            <p class="current-price">$20</p>
+            <p class="percent-off">50% OFF</p>
+          </div>
+          <div class="card-details">Early Bird Pricing: 06/07/23 at 7:30</div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/atJfWiWb6ibMqA9AiCoR555NMqU/at-7952x5304/v1/c349x211.webp" alt="" />
+          <div class="card-name">SpaDerma</div>
+          <div class="card-location">
+            <p class="card-location-address">1133 W Armitage Ave, Chicago</p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.8</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">2443 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$300</p>
+            <p class="current-price">$54</p>
+            <p class="percent-off">82% OFF</p>
+          </div>
+          <div class="card-details">
+            Three Laser Hair-Removal Sessions on an Extra Small Area
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/24q8exdxoRk9oCc1qvyBm7vqbpkf/24-2250x1349/v1/c349x211.webp" alt="" />
+          <div class="card-name">ClimbZone - Chicago</div>
+          <div class="card-location">
+            <p class="card-location-address">
+              2500 West Bradley Place, Chicago
+            </p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.8</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">7 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$29.99</p>
+            <p class="current-price">$24</p>
+            <p class="percent-off">20% OFF</p>
+          </div>
+          <div class="card-details">
+            Two-Hour Indoor Climbing Package (Denali Package) for One Person
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="banners-bar">
+      <div class="banner second-left-banner">
+        <h2 class="banner-title">
+          Save on This Great Deal Before it's Gone!
+        </h2>
+
+        <div class="btn light-btn">Shop Now</div>
+      </div>
+      <div class="banner second-right-banner">
+        <h2 class="banner-title">Gameday with Groupon</h2>
+        <p class="banner-description">
+          NFL tickets for the 2023 season are here — be sure to grab them
+          before they’re gone.
+        </p>
+        <div class="btn dark-btn">Discover More</div>
+      </div>
+    </div>
+    <div class="popular-deals">
+      <h2 class="popular-deals-title">Popular on Groupon</h2>
+      <div class="popular-deal-cards-bar">
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/metro_draft_service/4NBpXHx1piyJA9BhNANKTYWFBgPk/4N-1290x774/v1/c349x211.webp"
+            alt="" />
+          <div class="card-name">A Plus Nail</div>
+          <div class="card-location">
+            <p class="card-location-address">
+              2814 North Halsted Street, Chicago
+            </p>
             •
-            <p class="card-location-miles">13.4 mi</p>
+            <p class="card-location-miles">3.9 mi</p>
           </div>
           <div class="card-rating-bar">
             <p class="card-rating-bar-score">4.5</p>
-            <img
-              src="images/rating-stars.png"
-              alt=""
-              class="card-rating-bar-stars"
-            />
-            <p class="card-rating-bar-number">2043 Ratings</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">5 Ratings</p>
           </div>
           <div class="card-prices">
-            <p class="original-price">$50</p>
+            <p class="original-price">$45</p>
+            <p class="current-price">$41</p>
+            <p class="percent-off">9% OFF</p>
+          </div>
+          <div class="card-details">No chip manicure</div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/2PBN2P54mGjoUywEWeRR9rEnhgK6/2P-1648x980/v1/c349x211.webp" alt="" />
+          <div class="card-name">Chicago Cruise Events</div>
+          <div class="card-location">
+            <p class="card-location-address">
+              200 North Breakwater Access, Chicago
+            </p>
+            •
+            <p class="card-location-miles">0.8 mi</p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.4</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">2733 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$32</p>
+            <p class="current-price">$12</p>
+            <p class="percent-off">63% OFF</p>
+          </div>
+          <div class="card-details">
+            Monday or Tuesday Night Sunset Skyline Cruise for One
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/3ev6T1dpBx8pqS8nQGKH9E7ejW8Y/3e-2048x1229/v1/c349x211.webp" alt="" />
+          <div class="card-name">Splash Country Water Park</div>
+          <div class="card-location">
+            <p class="card-location-address">195 South Barnes Road, Aurora</p>
+            •
+            <p class="card-location-miles">40.6 mi</p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.5</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">2140 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$26</p>
+            <p class="current-price">$16</p>
+            <p class="percent-off">38% OFF</p>
+          </div>
+          <div class="card-details">
+            Admission for Two to Splash Country Water Park: through 08/06/2023
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/3knFHVHWmxsohrYyy8usaThM3PiJ/3k-2048x1229/v1/c349x211.webp" alt="" />
+          <div class="card-name">Great Wolf Lodge Chicago/Gurnee</div>
+          <div class="card-location">
+            <p class="card-location-address">Gurnee, IL</p>
+            •
+            <p class="card-location-miles">38.5 mi</p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.4</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">4900 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$242</p>
+            <p class="current-price">$109</p>
+            <p class="percent-off">55% OFF</p>
+          </div>
+          <div class="card-details">Great Wolf Lodge Waterpark Hotel</div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/fydZ7EgGhgRHYepshJRUyEuPZGQ/fy-2048x1229/v1/c349x211.webp" alt="" />
+          <div class="card-name">Circle K</div>
+          <div class="card-location">
+            <p class="card-location-address">
+              2634 W 87th St., Evergreen Park
+            </p>
+            •
+            <p class="card-location-miles">10.5 mi</p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.3</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">3118 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$60</p>
             <p class="current-price">$35</p>
-            <p class="percent-off">30% OFF</p>
+            <p class="percent-off">42% OFF</p>
           </div>
-          <div class="card-details">General Spa Admission for One</div>
+          <div class="card-details">Four Ultimate Car Washes</div>
         </div>
         <div class="card">
-          <img
-            class="card-image"
-            src="https://img.grouponcdn.com/deal/TxCsMdvFmgciVRohZVFW551hPw4/Tx-2000x1200/v1/c349x211.webp"
-            alt=""
-          />
-          <div class="card-name">Bounce The Mall</div>
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/2yL9y8LLJEFknwmhRB4iQxXFE3g6/2y-5398x3239/v1/c349x211.webp" alt="" />
+          <div class="card-name">❀ Heavenly Massage ❀</div>
           <div class="card-location">
-            <p class="card-location-address">Chicago Premium Outlets, Aurora</p>
+            <p class="card-location-address">
+              1221 North State Pkwy, Chicago
+            </p>
             •
-            <p class="card-location-miles">33.8 mi</p>
-          </div>
-          <div class="card-rating-bar">
-            <p class="card-rating-bar-score">4.5</p>
-            <img
-              src="images/rating-stars.png"
-              alt=""
-              class="card-rating-bar-stars"
-            />
-            <p class="card-rating-bar-number">2563 Ratings</p>
-          </div>
-          <div class="card-prices">
-            <p class="original-price">$26.16</p>
-            <p class="current-price">$19</p>
-            <p class="percent-off">27% OFF</p>
-          </div>
-          <div class="card-details">Selling fast!</div>
-        </div>
-        <div class="card">
-          <img
-            class="card-image"
-            src="https://img.grouponcdn.com/deal/sRBhS1YUqxKGFNoU6o6YGT/IMAGE_Valvoline-Instant-Oil-Change-Kansas-City_MO-700x420/v1/c349x211.webp"
-            alt=""
-          />
-          <div class="card-name">Valvoline Instant Oil Change</div>
-          <div class="card-location">
-            <p class="card-location-address">810 West 31st Street, Chicago</p>
-            •
-            <p class="card-location-miles">3.1 mi</p>
+            <p class="card-location-miles">1.7 mi</p>
           </div>
           <div class="card-rating-bar">
             <p class="card-rating-bar-score">4.6</p>
-            <img
-              src="images/rating-stars.png"
-              alt=""
-              class="card-rating-bar-stars"
-            />
-            <p class="card-rating-bar-number">2895 Ratings</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">15888 Ratings</p>
           </div>
           <div class="card-prices">
-            <p class="original-price">$49.99</p>
-            <p class="current-price">$34.99</p>
+            <p class="original-price">$135</p>
+            <p class="current-price">$89.99</p>
+            <p class="percent-off">33% OFF</p>
+          </div>
+          <div class="card-details">
+            Select Option 60-Minute Swedish or Deep-Tissue Massage Session
+            with Aromatherapy and Steam Shower Aroma Enhancements
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/3GdmgSUDnXcY2hvXPWwEqQLksA57/3G-1000x600/v1/c349x211.webp" alt="" />
+          <div class="card-name">Skydive Windy City</div>
+          <div class="card-location">
+            <p class="card-location-address">
+              1300 S Indiana Highway 212, Michigan
+            </p>
+            •
+            <p class="card-location-miles">43 mi</p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.9</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">1370 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$259</p>
+            <p class="current-price">$189</p>
+            <p class="percent-off">27% OFF</p>
+          </div>
+          <div class="card-details">Tandem Skydive Jump for One</div>
+        </div>
+        <div class="card">
+          <img class="card-image"
+            src="https://img.grouponcdn.com/deal/i9D7coMEyPJDJuKvA924/8t-1500x900/v1/c349x211.webp" alt="" />
+          <div class="card-name">My Kidzplay</div>
+          <div class="card-location">
+            <p class="card-location-address">4847 West 111th Street, Alsip</p>
+            •
+            <p class="card-location-miles">14.5 mi</p>
+          </div>
+          <div class="card-rating-bar">
+            <p class="card-rating-bar-score">4.6</p>
+            <img src="images/rating-stars.png" alt="" class="card-rating-bar-stars" />
+            <p class="card-rating-bar-number">1134 Ratings</p>
+          </div>
+          <div class="card-prices">
+            <p class="original-price">$19.95</p>
+            <p class="current-price">$14</p>
             <p class="percent-off">30% OFF</p>
           </div>
           <div class="card-details">
-            One Conventional Oil Change (Valid Only at Select Locations)
+            Family-friendly indoor playground creates a safe space for
+            children to learn, play, and develop social skills
           </div>
         </div>
-      </div>
-      <div class="banners-bar">
-        <div class="banner first-left-banner">
-          <h2 class="banner-title">Unlock your discount</h2>
-          <p class="banner-description">
-            Find top deals you'll love all in one place
-          </p>
-          <div class="btn dark-btn">Save Today</div>
-        </div>
-        <div class="banner first-right-banner">
-          <h2 class="banner-title">Sun's Out, Fun's Out</h2>
-          <p class="banner-description">
-            Make the most out of summer with deals on fun near you!
-          </p>
-          <div class="btn dark-btn">Get Out There</div>
-        </div>
-      </div>
-      <div class="top-deals">
-        <div class="title-page">
-          <h2 class="top-deals-title">Experience The City's Top Deals</h2>
-          <div class="page-counter">
-            1 of 2
-            <div class="previous-btn">
-              <img src="./images/previous.svg" width="14px" />
-            </div>
-            <div class="next-btn">
-              <img src="./images/next.svg" width="14px" />
-            </div>
-          </div>
-        </div>
-        <div class="top-deal-cards-bar">
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/23Gdw67Vps17Co3xtLAAHnqzKQR2/23-1200x840/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">City Cruises</div>
-            <div class="card-location">
-              <p class="card-location-address">
-                600 East Grand Avenue, Chicago
-              </p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.4</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">833 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$34.95</p>
-              <p class="current-price">$20.97</p>
-              <p class="percent-off">40% OFF</p>
-            </div>
-            <div class="card-details">Chicago Lakefront Speedboat Tour</div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/2ThNUA4ropWDrYk5LLnPVevWtcwV/2T-2848x1760/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">Circus Vazquez Schaumburg (June 2–11)</div>
-            <div class="card-location">
-              <p class="card-location-address">5 Woodfield Mall, Schaumburg</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.3</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">222 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$39.72</p>
-              <p class="current-price">$20</p>
-              <p class="percent-off">50% OFF</p>
-            </div>
-            <div class="card-details">Early Bird Pricing: 06/07/23 at 7:30</div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/atJfWiWb6ibMqA9AiCoR555NMqU/at-7952x5304/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">SpaDerma</div>
-            <div class="card-location">
-              <p class="card-location-address">1133 W Armitage Ave, Chicago</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.8</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">2443 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$300</p>
-              <p class="current-price">$54</p>
-              <p class="percent-off">82% OFF</p>
-            </div>
-            <div class="card-details">
-              Three Laser Hair-Removal Sessions on an Extra Small Area
-            </div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/24q8exdxoRk9oCc1qvyBm7vqbpkf/24-2250x1349/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">ClimbZone - Chicago</div>
-            <div class="card-location">
-              <p class="card-location-address">
-                2500 West Bradley Place, Chicago
-              </p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.8</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">7 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$29.99</p>
-              <p class="current-price">$24</p>
-              <p class="percent-off">20% OFF</p>
-            </div>
-            <div class="card-details">
-              Two-Hour Indoor Climbing Package (Denali Package) for One Person
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="banners-bar">
-        <div class="banner second-left-banner">
-          <h2 class="banner-title">
-            Save on This Great Deal Before it's Gone!
-          </h2>
-
-          <div class="btn light-btn">Shop Now</div>
-        </div>
-        <div class="banner second-right-banner">
-          <h2 class="banner-title">Gameday with Groupon</h2>
-          <p class="banner-description">
-            NFL tickets for the 2023 season are here — be sure to grab them
-            before they’re gone.
-          </p>
-          <div class="btn dark-btn">Discover More</div>
-        </div>
-      </div>
-      <div class="popular-deals">
-        <h2 class="popular-deals-title">Popular on Groupon</h2>
-        <div class="popular-deal-cards-bar">
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/metro_draft_service/4NBpXHx1piyJA9BhNANKTYWFBgPk/4N-1290x774/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">A Plus Nail</div>
-            <div class="card-location">
-              <p class="card-location-address">
-                2814 North Halsted Street, Chicago
-              </p>
-              •
-              <p class="card-location-miles">3.9 mi</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.5</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">5 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$45</p>
-              <p class="current-price">$41</p>
-              <p class="percent-off">9% OFF</p>
-            </div>
-            <div class="card-details">No chip manicure</div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/2PBN2P54mGjoUywEWeRR9rEnhgK6/2P-1648x980/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">Chicago Cruise Events</div>
-            <div class="card-location">
-              <p class="card-location-address">
-                200 North Breakwater Access, Chicago
-              </p>
-              •
-              <p class="card-location-miles">0.8 mi</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.4</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">2733 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$32</p>
-              <p class="current-price">$12</p>
-              <p class="percent-off">63% OFF</p>
-            </div>
-            <div class="card-details">
-              Monday or Tuesday Night Sunset Skyline Cruise for One
-            </div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/3ev6T1dpBx8pqS8nQGKH9E7ejW8Y/3e-2048x1229/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">Splash Country Water Park</div>
-            <div class="card-location">
-              <p class="card-location-address">195 South Barnes Road, Aurora</p>
-              •
-              <p class="card-location-miles">40.6 mi</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.5</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">2140 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$26</p>
-              <p class="current-price">$16</p>
-              <p class="percent-off">38% OFF</p>
-            </div>
-            <div class="card-details">
-              Admission for Two to Splash Country Water Park: through 08/06/2023
-            </div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/3knFHVHWmxsohrYyy8usaThM3PiJ/3k-2048x1229/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">Great Wolf Lodge Chicago/Gurnee</div>
-            <div class="card-location">
-              <p class="card-location-address">Gurnee, IL</p>
-              •
-              <p class="card-location-miles">38.5 mi</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.4</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">4900 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$242</p>
-              <p class="current-price">$109</p>
-              <p class="percent-off">55% OFF</p>
-            </div>
-            <div class="card-details">Great Wolf Lodge Waterpark Hotel</div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/fydZ7EgGhgRHYepshJRUyEuPZGQ/fy-2048x1229/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">Circle K</div>
-            <div class="card-location">
-              <p class="card-location-address">
-                2634 W 87th St., Evergreen Park
-              </p>
-              •
-              <p class="card-location-miles">10.5 mi</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.3</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">3118 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$60</p>
-              <p class="current-price">$35</p>
-              <p class="percent-off">42% OFF</p>
-            </div>
-            <div class="card-details">Four Ultimate Car Washes</div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/2yL9y8LLJEFknwmhRB4iQxXFE3g6/2y-5398x3239/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">❀ Heavenly Massage ❀</div>
-            <div class="card-location">
-              <p class="card-location-address">
-                1221 North State Pkwy, Chicago
-              </p>
-              •
-              <p class="card-location-miles">1.7 mi</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.6</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">15888 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$135</p>
-              <p class="current-price">$89.99</p>
-              <p class="percent-off">33% OFF</p>
-            </div>
-            <div class="card-details">
-              Select Option 60-Minute Swedish or Deep-Tissue Massage Session
-              with Aromatherapy and Steam Shower Aroma Enhancements
-            </div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/3GdmgSUDnXcY2hvXPWwEqQLksA57/3G-1000x600/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">Skydive Windy City</div>
-            <div class="card-location">
-              <p class="card-location-address">
-                1300 S Indiana Highway 212, Michigan
-              </p>
-              •
-              <p class="card-location-miles">43 mi</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.9</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">1370 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$259</p>
-              <p class="current-price">$189</p>
-              <p class="percent-off">27% OFF</p>
-            </div>
-            <div class="card-details">Tandem Skydive Jump for One</div>
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="https://img.grouponcdn.com/deal/i9D7coMEyPJDJuKvA924/8t-1500x900/v1/c349x211.webp"
-              alt=""
-            />
-            <div class="card-name">My Kidzplay</div>
-            <div class="card-location">
-              <p class="card-location-address">4847 West 111th Street, Alsip</p>
-              •
-              <p class="card-location-miles">14.5 mi</p>
-            </div>
-            <div class="card-rating-bar">
-              <p class="card-rating-bar-score">4.6</p>
-              <img
-                src="images/rating-stars.png"
-                alt=""
-                class="card-rating-bar-stars"
-              />
-              <p class="card-rating-bar-number">1134 Ratings</p>
-            </div>
-            <div class="card-prices">
-              <p class="original-price">$19.95</p>
-              <p class="current-price">$14</p>
-              <p class="percent-off">30% OFF</p>
-            </div>
-            <div class="card-details">
-              Family-friendly indoor playground creates a safe space for
-              children to learn, play, and develop social skills
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="page-number">
-        <div class="pages-list">
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>...</li>
-            <li>26</li>
-          </ul>
-          <div class="btn dark-btn">
-            Next<svg
-              data-ds-type="Icon"
-              width="24"
-              height="24"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-              class="r-4qtqp9 r-yyyyoo r-z80fyv r-1ybube5 r-61z16t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-19wmn03"
-            >
-              <path
-                d="M11.29 25.29a1 1 0 1 0 1.41 1.41l10-10a1 1 0 0 0 0-1.41l-10-10a1 1 0 1 0-1.41 1.41l9.3 9.3-9.3 9.29z"
-              ></path>
-            </svg>
-          </div>
-        </div>
-        <p><span>1 - 24</span> of 601 results</p>
       </div>
     </div>
-    <div class="ending-drawer">
-      <p class="container">
-        <span class="ending-drawer-title">Popular on Groupon </span
-        ><span class="plus-sign"
-          ><svg
-            width="20"
-            height="20"
-            data-ds-type="Icon"
-            viewBox="0 0 32 32"
-            xmlns="http://www.w3.org/2000/svg"
-            class="r-4qtqp9 r-yyyyoo r-1r74h94 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr"
-          >
+    <div class="page-number">
+      <div class="pages-list">
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>...</li>
+          <li>26</li>
+        </ul>
+        <div class="btn dark-btn">
+          Next<svg data-ds-type="Icon" width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+            class="r-4qtqp9 r-yyyyoo r-z80fyv r-1ybube5 r-61z16t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-19wmn03">
             <path
-              d="M27 16a1 1 0 0 1-1 1h-9v9a1 1 0 0 1-1 1 1 1 0 0 1-1-1v-9H6a1 1 0 0 1-1-1 1 1 0 0 1 1-1h9V6a1 1 0 0 1 1-1 1 1 0 0 1 1 1v9h9a1 1 0 0 1 1 1z"
-            ></path></svg
-        ></span>
-        is your place for savings and discovery while exploring fun activities
-        in your city and around the country. Click here for Popular Categories.
-      </p>
-    </div>
-    <div class="footer-links">
-      <div class="footer-links-items container">
-        <ul>
-          <li>Customer support</li>
-          <li><div class="btn light-btn">Help Center</div></li>
-          <li><a href="">Refund Policies</a></li>
-          <li><a href="">Report Infringement</a></li>
-        </ul>
-        <ul>
-          <li>Sell on Groupon</li>
-          <li><a href="">Join Groupons Marketplace</a></li>
-          <li><a href="">Run a Groupon Campaign</a></li>
-          <li><a href="">How does Groupon work for Merchants</a></li>
-          <li><a href="">Sponsor your Campaign</a></li>
-          <li><a href="">Affiliate Program</a></li>
-          <li><a href="">Vendor Code of Conduct</a></li>
-        </ul>
-        <ul>
-          <li>Company</li>
-          <li><a>About</a></li>
-          <li><a>Jobs</a></li>
-          <li><a>Students</a></li>
-          <li><a>Press</a></li>
-          <li><a>Investor Relations</a></li>
-          <li><a>Management Team</a></li>
-          <li><a>In Your Community</a></li>
-        </ul>
-        <ul>
-          <li>Quick Links</li>
-          <li><a>Treat yourself</a></li>
-          <li><a>Things to do</a></li>
-          <li><a>Coupons</a></li>
-          <li><a>Gifts for Occasions</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="contact-list">
-      <div class="contact-list-items container">
-        <div class="social-contact">
-          <div class="contact-title">Follow Us</div>
-          <div class="social-media-logos">
-            <a href=""><img src="./images/the-gist.png" alt="the gist" /></a>
-            <a href="">
-              <svg
-                data-ds-type="Icon"
-                width="24"
-                height="24"
-                viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg"
-                class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz"
-              >
-                <g>
-                  <path
-                    fill-rule="evenodd"
-                    d="M30 16a14 14 0 0 1-11.81 13.83v-9.78h3.26l.62-4.05h-3.88v-2.63c0-1.11.54-2.19 2.28-2.19h1.77V7.74s-1.6-.27-3.13-.27c-3.2 0-5.29 1.94-5.29 5.45V16h-3.55v4.05h3.55v9.78A14 14 0 1 1 30 16z"
-                    clip-rule="evenodd"
-                  ></path>
-                  <path
-                    fill="#fff"
-                    fill-rule="evenodd"
-                    d="M18.19 13.37V16h3.88l-.62 4.05h-3.26v9.78a14.48 14.48 0 0 1-4.38 0v-9.78h-3.55V16h3.55v-3.08c0-3.51 2.09-5.45 5.29-5.45 1.53 0 3.13.27 3.13.27v3.45h-1.77c-1.73 0-2.27 1.08-2.27 2.18z"
-                    clip-rule="evenodd"
-                  ></path>
-                </g>
-              </svg>
-            </a>
-            <a href=""
-              ><svg
-                data-ds-type="Icon"
-                width="24"
-                height="24"
-                viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg"
-                class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz"
-              >
-                <path
-                  d="M29.92 10.23c-.07-1.49-.3-2.51-.65-3.4a7.01 7.01 0 0 0-1.61-2.48 6.746 6.746 0 0 0-2.48-1.61c-.89-.35-1.91-.58-3.4-.65C20.28 2.02 19.8 2 16 2s-4.28.02-5.77.08c-1.49.07-2.51.3-3.4.65-.92.36-1.7.84-2.48 1.61-.78.79-1.26 1.57-1.62 2.49-.35.89-.58 1.91-.65 3.4C2.02 11.72 2 12.2 2 16s.02 4.28.08 5.77c.07 1.49.3 2.51.65 3.4.36.92.84 1.7 1.61 2.48.78.78 1.56 1.26 2.48 1.61.89.35 1.91.58 3.4.65 1.5.07 1.98.09 5.78.09s4.28-.02 5.77-.08c1.49-.07 2.51-.3 3.4-.65.92-.36 1.7-.84 2.48-1.61.78-.78 1.26-1.56 1.61-2.48.35-.89.58-1.91.65-3.4.07-1.5.09-1.98.09-5.78s-.02-4.28-.08-5.77zM27.4 21.66c-.06 1.36-.29 2.11-.48 2.6-.25.65-.56 1.12-1.05 1.61s-.96.79-1.61 1.05c-.49.19-1.23.42-2.6.48-1.48.07-1.92.08-5.66.08s-4.18-.01-5.66-.08c-1.36-.06-2.11-.29-2.6-.48-.65-.25-1.12-.56-1.61-1.05s-.79-.96-1.05-1.61c-.19-.49-.42-1.23-.48-2.6-.06-1.48-.08-1.92-.08-5.66s.01-4.18.08-5.66c.06-1.36.29-2.11.48-2.6.25-.65.56-1.12 1.05-1.61s.96-.79 1.61-1.05c.49-.19 1.23-.42 2.6-.48 1.48-.07 1.92-.08 5.66-.08s4.18.01 5.66.08c1.36.06 2.11.29 2.6.48.65.25 1.12.56 1.61 1.05s.79.96 1.05 1.61c.19.49.42 1.23.48 2.6.07 1.48.08 1.92.08 5.66s-.02 4.18-.08 5.66zM16 8.81a7.191 7.191 0 0 0 0 14.38 7.191 7.191 0 0 0 0-14.38zm0 11.86c-2.58 0-4.67-2.09-4.67-4.67s2.09-4.67 4.67-4.67 4.67 2.09 4.67 4.67-2.09 4.67-4.67 4.67zm9.15-12.14c0 .93-.75 1.68-1.68 1.68-.93 0-1.68-.75-1.68-1.68 0-.93.75-1.68 1.68-1.68.93 0 1.68.75 1.68 1.68z"
-                ></path></svg
-            ></a>
-            <a href=""
-              ><svg
-                data-ds-type="Icon"
-                width="24"
-                height="24"
-                viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg"
-                class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz"
-              >
-                <path
-                  d="M27.93 9.88c.02.26.02.53.02.8 0 8.13-6.19 17.51-17.51 17.51-3.34 0-6.62-.95-9.43-2.76a12.38 12.38 0 0 0 9.1-2.55 6.17 6.17 0 0 1-5.75-4.27c.92.18 1.87.14 2.78-.11a6.16 6.16 0 0 1-4.94-6.03v-.08c.86.48 1.81.74 2.79.77a6.16 6.16 0 0 1-1.9-8.22 17.46 17.46 0 0 0 12.68 6.43 6.16 6.16 0 0 1 10.49-5.61c1.38-.27 2.7-.78 3.91-1.49a6.18 6.18 0 0 1-2.71 3.4c1.22-.14 2.41-.47 3.53-.97a12.5 12.5 0 0 1-3.06 3.18z"
-                ></path></svg
-            ></a>
-          </div>
+              d="M11.29 25.29a1 1 0 1 0 1.41 1.41l10-10a1 1 0 0 0 0-1.41l-10-10a1 1 0 1 0-1.41 1.41l9.3 9.3-9.3 9.29z">
+            </path>
+          </svg>
         </div>
-        <div class="sites">
-          <div class="contact-title">Groupon Sites</div>
-          <div class="site-btn btn">
-            <a href="">USA</a
-            ><svg
-              width="16"
-              height="16"
-              data-ds-type="Icon"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-              class="r-4qtqp9 r-yyyyoo r-dnmrzs r-u8s1d r-1pgswnq r-1plcrui r-lrvibr"
-            >
-              <path
-                d="M6.71 11.29A1 1 0 1 0 5.3 12.7l10 10a1 1 0 0 0 1.41 0l10-10a1 1 0 1 0-1.41-1.41l-9.3 9.3-9.29-9.3z"
-              ></path>
+      </div>
+      <p><span>1 - 24</span> of 601 results</p>
+    </div>
+  </div>
+  <div class="ending-drawer">
+    <p class="container">
+      <span class="ending-drawer-title">Popular on Groupon </span><span class="plus-sign"><svg width="20" height="20"
+          data-ds-type="Icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+          class="r-4qtqp9 r-yyyyoo r-1r74h94 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+          <path
+            d="M27 16a1 1 0 0 1-1 1h-9v9a1 1 0 0 1-1 1 1 1 0 0 1-1-1v-9H6a1 1 0 0 1-1-1 1 1 0 0 1 1-1h9V6a1 1 0 0 1 1-1 1 1 0 0 1 1 1v9h9a1 1 0 0 1 1 1z">
+          </path>
+        </svg></span>
+      is your place for savings and discovery while exploring fun activities
+      in your city and around the country. Click here for Popular Categories.
+    </p>
+  </div>
+  <div class="footer-links">
+    <div class="footer-links-items container">
+      <ul>
+        <li>Customer support</li>
+        <li>
+          <div class="btn light-btn">Help Center</div>
+        </li>
+        <li><a href="">Refund Policies</a></li>
+        <li><a href="">Report Infringement</a></li>
+      </ul>
+      <ul>
+        <li>Sell on Groupon</li>
+        <li><a href="">Join Groupons Marketplace</a></li>
+        <li><a href="">Run a Groupon Campaign</a></li>
+        <li><a href="">How does Groupon work for Merchants</a></li>
+        <li><a href="">Sponsor your Campaign</a></li>
+        <li><a href="">Affiliate Program</a></li>
+        <li><a href="">Vendor Code of Conduct</a></li>
+      </ul>
+      <ul>
+        <li>Company</li>
+        <li><a>About</a></li>
+        <li><a>Jobs</a></li>
+        <li><a>Students</a></li>
+        <li><a>Press</a></li>
+        <li><a>Investor Relations</a></li>
+        <li><a>Management Team</a></li>
+        <li><a>In Your Community</a></li>
+      </ul>
+      <ul>
+        <li>Quick Links</li>
+        <li><a>Treat yourself</a></li>
+        <li><a>Things to do</a></li>
+        <li><a>Coupons</a></li>
+        <li><a>Gifts for Occasions</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="contact-list">
+    <div class="contact-list-items container">
+      <div class="social-contact">
+        <div class="contact-title">Follow Us</div>
+        <div class="social-media-logos">
+          <a href=""><img src="./images/the-gist.png" alt="the gist" /></a>
+          <a href="">
+            <svg data-ds-type="Icon" width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+              class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz">
+              <g>
+                <path fill-rule="evenodd"
+                  d="M30 16a14 14 0 0 1-11.81 13.83v-9.78h3.26l.62-4.05h-3.88v-2.63c0-1.11.54-2.19 2.28-2.19h1.77V7.74s-1.6-.27-3.13-.27c-3.2 0-5.29 1.94-5.29 5.45V16h-3.55v4.05h3.55v9.78A14 14 0 1 1 30 16z"
+                  clip-rule="evenodd"></path>
+                <path fill="#fff" fill-rule="evenodd"
+                  d="M18.19 13.37V16h3.88l-.62 4.05h-3.26v9.78a14.48 14.48 0 0 1-4.38 0v-9.78h-3.55V16h3.55v-3.08c0-3.51 2.09-5.45 5.29-5.45 1.53 0 3.13.27 3.13.27v3.45h-1.77c-1.73 0-2.27 1.08-2.27 2.18z"
+                  clip-rule="evenodd"></path>
+              </g>
             </svg>
-          </div>
-        </div>
-        <div class="scan">
-          <div class="contact-title">Scan for the Groupon App</div>
-          <div class="scan-options">
-            <img src="./images/qr-code.png" alt="qr code" />
-            <div class="btn site-btn">
-              <a href="">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="signup-bar">
-          <div class="contact-title">Sign up for the latest deals</div>
-          <div class="email-input">
-            <form action="">
-              <input type="email" placeholder="Email Address" />
-            </form>
-            <div class="submit-btn">
-              <img src="./images//next.svg" alt="submit button" width="20px" />
-            </div>
-          </div>
-          <p>
-            By subscribing, I agree to the Terms of Use and have read the
-            Privacy Statement.
-          </p>
+          </a>
+          <a href=""><svg data-ds-type="Icon" width="24" height="24" viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+              class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz">
+              <path
+                d="M29.92 10.23c-.07-1.49-.3-2.51-.65-3.4a7.01 7.01 0 0 0-1.61-2.48 6.746 6.746 0 0 0-2.48-1.61c-.89-.35-1.91-.58-3.4-.65C20.28 2.02 19.8 2 16 2s-4.28.02-5.77.08c-1.49.07-2.51.3-3.4.65-.92.36-1.7.84-2.48 1.61-.78.79-1.26 1.57-1.62 2.49-.35.89-.58 1.91-.65 3.4C2.02 11.72 2 12.2 2 16s.02 4.28.08 5.77c.07 1.49.3 2.51.65 3.4.36.92.84 1.7 1.61 2.48.78.78 1.56 1.26 2.48 1.61.89.35 1.91.58 3.4.65 1.5.07 1.98.09 5.78.09s4.28-.02 5.77-.08c1.49-.07 2.51-.3 3.4-.65.92-.36 1.7-.84 2.48-1.61.78-.78 1.26-1.56 1.61-2.48.35-.89.58-1.91.65-3.4.07-1.5.09-1.98.09-5.78s-.02-4.28-.08-5.77zM27.4 21.66c-.06 1.36-.29 2.11-.48 2.6-.25.65-.56 1.12-1.05 1.61s-.96.79-1.61 1.05c-.49.19-1.23.42-2.6.48-1.48.07-1.92.08-5.66.08s-4.18-.01-5.66-.08c-1.36-.06-2.11-.29-2.6-.48-.65-.25-1.12-.56-1.61-1.05s-.79-.96-1.05-1.61c-.19-.49-.42-1.23-.48-2.6-.06-1.48-.08-1.92-.08-5.66s.01-4.18.08-5.66c.06-1.36.29-2.11.48-2.6.25-.65.56-1.12 1.05-1.61s.96-.79 1.61-1.05c.49-.19 1.23-.42 2.6-.48 1.48-.07 1.92-.08 5.66-.08s4.18.01 5.66.08c1.36.06 2.11.29 2.6.48.65.25 1.12.56 1.61 1.05s.79.96 1.05 1.61c.19.49.42 1.23.48 2.6.07 1.48.08 1.92.08 5.66s-.02 4.18-.08 5.66zM16 8.81a7.191 7.191 0 0 0 0 14.38 7.191 7.191 0 0 0 0-14.38zm0 11.86c-2.58 0-4.67-2.09-4.67-4.67s2.09-4.67 4.67-4.67 4.67 2.09 4.67 4.67-2.09 4.67-4.67 4.67zm9.15-12.14c0 .93-.75 1.68-1.68 1.68-.93 0-1.68-.75-1.68-1.68 0-.93.75-1.68 1.68-1.68.93 0 1.68.75 1.68 1.68z">
+              </path>
+            </svg></a>
+          <a href=""><svg data-ds-type="Icon" width="24" height="24" viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+              class="r-o8gllb r-4qtqp9 r-yyyyoo r-mabqd8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz">
+              <path
+                d="M27.93 9.88c.02.26.02.53.02.8 0 8.13-6.19 17.51-17.51 17.51-3.34 0-6.62-.95-9.43-2.76a12.38 12.38 0 0 0 9.1-2.55 6.17 6.17 0 0 1-5.75-4.27c.92.18 1.87.14 2.78-.11a6.16 6.16 0 0 1-4.94-6.03v-.08c.86.48 1.81.74 2.79.77a6.16 6.16 0 0 1-1.9-8.22 17.46 17.46 0 0 0 12.68 6.43 6.16 6.16 0 0 1 10.49-5.61c1.38-.27 2.7-.78 3.91-1.49a6.18 6.18 0 0 1-2.71 3.4c1.22-.14 2.41-.47 3.53-.97a12.5 12.5 0 0 1-3.06 3.18z">
+              </path>
+            </svg></a>
         </div>
       </div>
+      <div class="sites">
+        <div class="contact-title">Groupon Sites</div>
+        <div class="site-btn btn">
+          <a href="">USA</a><svg width="16" height="16" data-ds-type="Icon" viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-u8s1d r-1pgswnq r-1plcrui r-lrvibr">
+            <path
+              d="M6.71 11.29A1 1 0 1 0 5.3 12.7l10 10a1 1 0 0 0 1.41 0l10-10a1 1 0 1 0-1.41-1.41l-9.3 9.3-9.29-9.3z">
+            </path>
+          </svg>
+        </div>
+      </div>
+      <div class="scan">
+        <div class="contact-title">Scan for the Groupon App</div>
+        <div class="scan-options">
+          <img src="./images/qr-code.png" alt="qr code" />
+          <div class="btn site-btn">
+            <a href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="signup-bar">
+        <div class="contact-title">Sign up for the latest deals</div>
+        <div class="email-input">
+          <form action="">
+            <input type="email" placeholder="Email Address" />
+          </form>
+          <div class="submit-btn">
+            <img src="./images//next.svg" alt="submit button" width="20px" />
+          </div>
+        </div>
+        <p>
+          By subscribing, I agree to the Terms of Use and have read the
+          Privacy Statement.
+        </p>
+      </div>
     </div>
-    <div class="copy-right container">
-      © 2023 Groupon, Inc. All Rights Reserved. Terms of Use | Privacy Policy |
-      Interest-Based Ads | Licenses | Accessibility | Do Not Sell or Share My
-      Personal Information | Sitemap
-    </div>
-  </body>
+  </div>
+  <div class="copy-right container">
+    © 2023 Groupon, Inc. All Rights Reserved. Terms of Use | Privacy Policy |
+    Interest-Based Ads | Licenses | Accessibility | Do Not Sell or Share My
+    Personal Information | Sitemap
+  </div>
+  <div class="developer">This is a parody website created with HTML and CSS-grid by <a href="https://vidakhalili.ir"
+      target="_blank">Vida
+      Khalili</a>. It is not affiliated with or endorsed by any real
+    company or organization.</div>
+</body>
+
 </html>
